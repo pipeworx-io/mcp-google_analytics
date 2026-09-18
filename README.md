@@ -80,3 +80,7 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+This pack runs against a connected google_analytics account, so it needs a Pipeworx key: sign in at https://pipeworx.io/account, connect google_analytics, then call `POST https://gateway.pipeworx.io/v1/tools/ga_run_report` with `Authorization: Bearer <your Pipeworx key>`. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/ga_run_report`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
