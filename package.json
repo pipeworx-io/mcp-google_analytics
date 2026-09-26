@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-google_analytics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Google Analytics MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3193d40e8efb8ee47423475361f70a038d65bacb38373f1cdbc6a96b17f9db71",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-0a1995ef3d579f4dbe3c810125a5907df7084943093d5c0efb0ec8e53361210e",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
